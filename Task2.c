@@ -1,31 +1,3 @@
-//#define _CRT_SECURE_NO_WARNINGS
-//#include <stdio.h>
-//#include <locale.h>
-//#define D 2.54
-//#define P 2,32166
-//#define S 2,7076
-//int main()
-//{
-//	setlocale(LC_ALL, "");
-//	int dym;
-//	float result;
-//	float result2;
-//	float result3;
-//	puts("Введите значение для расчета\n");
-//	scanf("%d", &dym);
-//	result = D * dym;
-//	printf("%d дюймов - это %.2f см\n", dym, result);
-//	result2 = P * dym;
-//	printf("%d испанских дюймов - это %2.f см\n", dym, result2);
-//	result3 = S * dym;
-//	printf("%d Старлиновских дюймов - это %2.f см\n ", dym, result3);
-//	return 0;
-//
-//
-//}
-
-
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
@@ -39,13 +11,13 @@ int main()
     float result;
     float result2;
     float result3;
-    printf("Введите значение для расчета \n");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г¤Г«Гї Г°Г Г±Г·ГҐГІГ  \n");
     scanf("%d", &dym);
     result = D * dym;
-    printf("%d дюймов – это %.2f см\n", dym, result);
+    printf("%d Г¤ГѕГ©Г¬Г®Гў вЂ“ ГЅГІГ® %.2f Г±Г¬\n", dym, result);
     result2 = P * dym;
-    printf("%d испанских дюймов - это %.2f см\n", dym, result2);
+    printf("%d ГЁГ±ГЇГ Г­Г±ГЄГЁГµ Г¤ГѕГ©Г¬Г®Гў - ГЅГІГ® %.2f Г±Г¬\n", dym, result2);
     result3 = S * dym;
-    printf("%d  Старлиновских дюймов - это %.2f см\n", dym, result3);
+    printf("%d  Г‘ГІГ Г°Г«ГЁГ­Г®ГўГ±ГЄГЁГµ Г¤ГѕГ©Г¬Г®Гў - ГЅГІГ® %.2f Г±Г¬\n", dym, result3);
     return 0;
 }
